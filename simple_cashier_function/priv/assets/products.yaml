@@ -1,0 +1,19 @@
+products:
+  GR:
+    name: 'Green tea'
+    price: 3.11
+    currency: 'fund'
+    discount_name: 'FreeRule'
+
+  CF:
+    name: 'Coffee'
+    price: 11.23
+    currency: 'fund'
+    discount_name: 'ReducedPriceRule'
+
+  SR:
+    name: 'Strawberries'
+    price: 5.00
+    currency: 'fund'
+    discount_name: 'FractionPriceRule'
+

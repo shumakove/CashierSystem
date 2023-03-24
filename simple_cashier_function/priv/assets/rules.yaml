@@ -1,0 +1,21 @@
+offers:
+  - FreeRule:
+      product_items: 1
+      free_additional_item: 1
+      discount: 0
+      changed_price: 0
+  # N - 10
+  # X - 25
+
+  - ReducedPriceRule:
+      product_items: 10
+      free_additional_item: 0
+      discount: 0
+      changed_price: 25
+  # N - 10
+  # X - 50% of original price
+  - FractionPriceRule:
+      product_items: 10
+      free_additional_item: 0
+      discount: 50
+      changed_price: 0
